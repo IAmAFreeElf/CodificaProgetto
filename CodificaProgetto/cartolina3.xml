@@ -1,0 +1,385 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI SYSTEM "PostcardProject.dtd">
+<?xml-stylesheet type="text/xsl" href="style.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="tei3">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt xml:id="titleStmt3">
+                <!-- TITOLO NB: non corrisponde completamente alla voce TITOLO della tabella perché si tratta del titolo della edizione digitale -->
+                <title>Donna in posa - Edizione digitale diplomatico-interpretativa</title>
+                <!-- TRASCRITTORE nome e cognome-->
+                <respStmt>
+                    <resp>Transcription by</resp>
+                    <name ref="#AB">Andrea Bussu</name>
+                    <name ref="#CD">Chiara D'Anzi</name>
+                </respStmt>
+                <!-- ENTE DI APPARTENENZA -->
+                <respStmt>
+                    <resp>Ente di Appartenenza</resp>
+                    <name type="comune" ref="#LS">Comune di La Spezia</name>
+                </respStmt>
+
+            </titleStmt>
+
+            <editionStmt xml:id="editionStmt3">
+                <edition>Università di Pisa, Informatica Umanistica <!-- COMPILAZIONE -->
+                    <date>2018</date>
+                </edition>
+
+                <!-- NOME COMPILATORE -->
+                <respStmt>
+                    <resp>encoding by</resp>
+                    <name ref="#XY1">Tommaso Castagneto</name>
+                </respStmt>
+
+                <!-- REFERENTE SCIENTIFICO sempre Nome Cognome, XY2 è sempre Tommaso Castagneto, XZ1 è chi interviene sulla schedatura già fatta per correzioni e aggiunte-->
+                <respStmt>
+
+                    <resp>Compilatore</resp>
+                    <name ref="#XY2">Tommaso Castagneto</name>
+                    <name ref="#XZ1">Andrea Bussu e Chiara D'Anzi</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Responsabile scientifico</resp>
+                    <name ref="#GP">Giacomo Paolicchi</name>
+                    <name ref="#ES">Enrica Salvatori</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Funzionario responsabile</resp>
+                    <name ref="#ER">E. Ratti</name>
+                </respStmt>
+            </editionStmt>
+
+            <publicationStmt xml:id="publicationStmt3">
+                <publisher>Unipi</publisher>
+                <pubPlace>Pisa</pubPlace>
+                <availability>
+                    <p>Available under licence only</p>
+                </availability>
+                <date when="2020">2020</date>
+                <distributor>LabCD</distributor>
+                <address>
+                    <addrLine>Laboratorio di Cultura Digitale - Università di Pisa</addrLine>
+                    <addrLine>Pisa</addrLine>
+                </address>
+            </publicationStmt>
+
+            <!-- NOTE NB: mettere qui tutto ciò che non rientra nella codifica -->
+            <notesStmt xml:id="noteStmt3">
+                <note>La cartolina non ha la data di invio, né timbri, né luogo, né francobollo. Sul
+                    retro troviamo la stampa "Proprietà artistica riservata - Uff. Rev. Stampa N.
+                    894 Milano - 25-5-1917", T. Corbella è l'autore dell'opera in fronte</note>
+            </notesStmt>
+
+            <sourceDesc xml:id="sourceDesc3">
+                <bibl>
+                    <!-- TITOLO Quello che si ricava dalla cartolina; Se un documento composto da immagini 
+                        non presenta un titolo o altri elementi considerabili come titolo, si formula un titolo sintetico 
+                        registrandolo entro parentesi quadre [Venere al bagno] ma indicando dentro la codifica come qui sotto esemplificato-->
+                    <title xml:id="title3" type="custom" resp="#ES">Le scuse di Giovannino</title>
+                    <author>Giovanni</author>
+                    <date xml:id="date3" when="1917525">1917/05/25</date>
+                </bibl>
+                <msDesc>
+                    <!-- COLLOCAZIONE SPECIFICA -->
+                    <msIdentifier>
+                        <country>Italia</country>
+                        <settlement>La Spezia (SP)</settlement>
+                        <!-- COLLOCAZIONE SPECIFICA -->
+                        <repository>Museo Civico Etnografico "Giovanni Podenzana", Sezione dei
+                            cimeli garibaldini e della Prima Guerrra Mondiale</repository>
+                        <!-- CODICE IDENTIFICATIVO -->
+                        <idno>7694_089_001/002</idno>
+                    </msIdentifier>
+
+                    <!-- Informazioni sul contenuto della cartolina -->
+                    <!-- DESCRIZIONE -->
+                    <msContents>
+                        <summary>Cartolina Artistica</summary>
+                        <textLang>Italiano</textLang>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType>Cartolina</objectType>
+                                    <!-- MATERIALI -->
+                                    <material>Carta</material>
+                                    <!-- DIMENSIONE -->
+                                    <dimensions unit="cm">
+                                        <height>9</height>
+                                        <width>14</width>
+                                    </dimensions>
+                                    <stamp>
+                                        <note>Assente</note>
+                                    </stamp>
+                                </support>
+
+                                <!-- CONSERVAZIONE 
+                                buono = non occorrono interventi di restauro;
+discreto = perfettamente leggibile in tutte le componenti ma con rischi di deterioramento per usura;
+mediocre = perfettamente leggibile, ma mancano alcune sue parti;
+cattivo = intaccato da parassiti o deteriorato da cattivi interventi passati o mancanti di parti rilevanti, necessita di restauro-->
+                                <condition>Buono</condition>
+                            </supportDesc>
+                        </objectDesc>
+                        <additions>La cartolina non ha la data di invio, né timbri, né luogo, né
+                            francobollo. Sul retro troviamo la stampa "Proprietà artistica riservata
+                            - Uff. Rev. Stampa N. 894 Milano - 25-5-1917", T. Corbella è l'autore
+                            dell'opera in fronte</additions>
+                    </physDesc>
+                </msDesc>
+
+                <!-- NOMI -->
+
+                <listPerson>
+
+
+                    <person>
+                        <persName ref="#GC">
+                            <forename>Giovanni</forename>
+                            <surname>Coliola </surname>
+                        </persName>
+                        <sex>M</sex>
+                    </person>
+                    <person>
+                        <persName ref="#OT">
+                            <forename>Oliva</forename>
+                            <surname>Turtura</surname>
+                        </persName>
+                        <sex>F</sex>
+                    </person>
+                </listPerson>
+                <listOrg>
+                    <org>
+                        <orgName type="N"/>
+                        <desc>Comune di La Spezia</desc>
+                    </org>
+                </listOrg>
+            </sourceDesc>
+        </fileDesc>
+
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#GC">Giovanni</persName>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#OT">Oliva Turtura</persName>
+                </correspAction>
+            </correspDesc>
+
+            <textClass>
+                <keywords>
+                    <!-- soggettario -->
+                    <term>Cartolina </term>
+                    <!-- tipologia -->
+                    <term>Cartolina Artistica </term>
+                    <!-- descrizione -->
+                    <term>Ritratto di una donna in posa</term>
+                </keywords>
+            </textClass>
+
+            <langUsage>
+                <language ident="it-IT">italiano</language>
+            </langUsage>
+        </profileDesc>
+
+    </teiHeader>
+
+    <!-- DEFINIZIONE -->
+    <!-- Codifica cartolina-->
+    <text type="cartolina" xml:id="cartolina3">
+        <!-- TRASCRIZIONE -->
+        <body>
+            <pb facs="#fronte3" n="5" xml:id="cartolinaf3"/>
+            <div type="fronte">
+                <!-- Descizione fronte immagine -->
+                <figure xml:id="figure3">
+                    <head>
+                        <title xml:id="titolo3">Donna in posa</title>
+                    </head>
+                    <figDesc>La foto ritrae una donna in posa di profilo, con il volto girato che
+                        accenna un sorriso verso l'osservatore. </figDesc>
+                </figure>
+            </div>
+            <pb facs="#retro3" n="6" xml:id="cartolinar3"/>
+            <div type="retro" xml:id="divTxt3">
+                <div xml:id="testo3" type="message" facs="#zone3">
+                    <!-- Corpo della cartolina -->
+                    <p xml:id="solotesto3">
+                        <lb/>
+                        <phr>
+                            <w pos="ADJ">Mia</w>
+                            <w pos="ADJ">buona</w>
+                            <persName ref="#OT">
+                                <forename>Oliva</forename>
+                            </persName>
+                            <pc pos="$," join="left">,</pc>
+                            <w pos="PRO:pers">ti</w>
+                            <w pos="VER" lemma="pregare">prego</w>
+                            <w pos="PRE">di</w>
+                            <w lemma="volere" pos="VER">volermi</w>
+                            <lb/>
+                            <w lemma="scusare" pos="VER:inf">scusare</w>
+                            <w pos="PRE">presso</w>
+                            <w pos="ART">i</w>
+                            <w pos="ADJ">tuoi</w>
+                            <w pos="CON:coo">e</w>
+                            <w pos="PRE">di</w>
+                            <w lemma="salutare" pos="VER">salutarmeli</w>
+                            <emph>
+                                <w pos="ADJ">tanto</w>
+                                <w pos="ADV" join="right">affet <choice>
+                                        <orig>
+                                            <pc> = </pc>
+                                        </orig>
+                                        <reg>
+                                            <pc> - </pc>
+                                        </reg>
+                                    </choice>
+                                    <lb/> tuosamente </w>
+                            </emph>
+                            <choice>
+                                <orig>
+                                    <pc> _ </pc>
+                                </orig>
+                                <reg>
+                                    <pc pos="$." join="left"> . </pc>
+                                </reg>
+                            </choice>
+                            <w pos="PRE">Circa</w>
+                            <w pos="ART">gli</w>
+                            <w pos="ADJ" lemma="ultimo">ultimi</w>
+                            <w pos="NOM" join="right">
+                                <unclear>arresti</unclear>
+                            </w>
+                            <pc pos="$," join="left">,</pc>
+                            <w pos="ART">il</w>
+                            <w pos="NOM">motivo</w>
+                            <lb/>
+                            <w lemma="essere" pos="VER">è</w>
+                            <w pos="ADV" lemma="bene">ben</w>
+                            <w pos="ADV" join="right">semplice</w>
+                            <pc pos="$," join="left">,</pc>
+                            <w pos="ADV">non</w>
+                            <w lemma="assistere" pos="VER">assistetti</w>
+                            <w pos="PRE:art">alla</w>
+                            <w pos="NOM">distribuzione</w>
+                            <lb/>
+                            <w pos="PRE:art">del</w>
+                            <distinct>
+                                <w pos="NOM" join="right">
+                                    <unclear>ramaio</unclear>
+                                </w>
+                            </distinct>
+                            <pc pos="$," join="left">;</pc>
+                            <w pos="ADV">non</w>
+                            <w pos="PRO:pers">te</w>
+                            <w pos="PRO">ne</w>
+                            <w lemma="avere" pos="AUX:pper">ho</w>
+                            <w pos="ADV">mai</w>
+                            <w lemma="parlare" pos="VER">parlato</w>
+                            <w pos="CON:sub">perché</w>
+                            <w pos="PRO:pers">mi</w>
+                            <lb/>
+                            <w lemma="parere" pos="VER">pare</w>
+                            <w pos="CON:coo">che</w>
+                            <w pos="ADJ" lemma="queste">queste</w>
+                            <w pos="NOM" lemma="cosa">cose</w>
+                            <w lemma="macchiare" pos="NOM" join="right">macchino</w>
+                            <pc pos="$," join="left">,</pc>
+                            <w pos="PRE">di</w>
+                            <emph>
+                                <w pos="NOM">scempiaggine</w>
+                                <lb/>
+                                <w pos="ADJ" join="right">dolorosa</w>
+                            </emph>
+                            <pc pos="$," join="left">,</pc>
+                            <w pos="ART">i</w>
+                            <w lemma="nostro" pos="PRO:pers">nostri</w>
+                            <w lemma="pensiero" pos="NOM" join="right">pensieri</w>
+                            <choice>
+                                <orig>
+                                    <pc> _ </pc>
+                                </orig>
+                                <reg>
+                                    <pc pos="$." join="left"> . </pc>
+                                </reg>
+                            </choice>
+                            <w pos="ADV">Non</w>
+                            <w pos="PRO:pers">ti</w>
+                            <w lemma="parlare" pos="VER">parlo</w>
+                            <w pos="ADV">mai</w>
+                            <lb/>
+                            <w pos="PRE">di</w>
+                            <w pos="PRO:pers" join="right">me</w>
+                            <pc pos="$," join="left">,</pc>
+                            <w pos="PRE:art">della</w>
+                            <w pos="PRO:pers">mia</w>
+                            <w pos="NOM">vita</w>
+                            <w pos="ADJ" join="right">fisica</w>
+                            <pc pos="$," join="left">,</pc>
+                            <w lemma="essere" pos="VER">sia</w>
+                            <w pos="CON:sub">perché</w>
+                            <w pos="ADV">non</w>
+                            <w pos="PRO">ne</w>
+                            <w lemma="valere" pos="VER">vale</w>
+                            <lb/>
+                            <w pos="ADV">affatto</w>
+                            <w pos="ART">la</w>
+                            <w pos="NOM" join="right">pena</w>
+                            <pc pos="$," join="left">,</pc>
+                            <w lemma="essere" pos="VER">sia</w>
+                            <w pos="CON:coo">anche</w>
+                            <w pos="PRE">per</w>
+                            <w pos="ART">la</w>
+                            <w pos="NOM">ragione</w>
+                            <w pos="PRE">di</w>
+                            <w pos="PRO">cui</w>
+                            <w pos="ADV" join="right">sopra</w>
+                            <choice>
+                                <orig>
+                                    <pc> _ </pc>
+                                </orig>
+                                <reg>
+                                    <pc pos="$." join="left"> . </pc>
+                                </reg>
+                            </choice>
+                            <lb/>
+                        </phr>
+                        <phr>
+                            <emph>
+                                <w lemma="volere" pos="VER">Vogliami</w>
+                                <w pos="ADV">sempre</w>
+                                <w pos="ADV">bene</w>
+                            </emph>
+                            <w pos="CON:coo">e</w>
+                            <w lemma="scrivere" pos="VER">scrivimi</w>
+                            <w pos="PRE">a</w>
+                            <w pos="ADJ">lungo</w>
+                            <lb/>
+                            <w pos="PRO:pers">tuo</w>
+                            <persName ref="#GC">
+                                <forename>Giovannino</forename>
+                            </persName>
+                        </phr>
+                    </p>
+                </div>
+            </div>
+        </body>
+    </text>
+    <!-- Immagini cartolina -->
+    <facsimile xml:id="facsimile3">
+        <surface xml:id="fronte3" start="#cartolinaf3">
+            <!-- Immagine intera fronte-->
+            <graphic url="immagini/7694-089F.jpg"/>
+        </surface>
+        <surface xml:id="retro3" start="#cartolinar3">
+            <!-- Immagine intera fronte-->
+            <graphic xml:id="Retro3" url="immagini/7694-089R.jpg" height="370px"/>
+            <!-- Zona interattiva -->
+            <zone ulx="1" uly="40" lrx="570" lry="400"  xml:id="zone3"/>
+        </surface>
+    </facsimile>
+</TEI>

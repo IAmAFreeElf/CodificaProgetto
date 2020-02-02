@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI SYSTEM "PostcardProject.dtd">
+<?xml-stylesheet type="text/xsl" href="style.xsl"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="tei1">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt xml:id="titleStmt1">
+                <!-- TITOLO NB: non corrisponde completamente alla voce TITOLO della tabella perché si tratta del titolo della edizione digitale -->
+                <title>Donna sdraiata - Edizione digitale diplomatico-interpretativa</title>
+                <!-- TRASCRITTORE nome e cognome-->
+                <respStmt>
+                    <resp>Transcription by</resp>
+                    <name ref="#AB">Andrea Bussu</name>
+                    <name ref="#CD">Chiara D'Anzi</name>
+                </respStmt>
+
+                <!-- ENTE DI APPARTENENZA -->
+                <respStmt>
+                    <resp>Ente di Appartenenza</resp>
+                    <name type="comune" ref="#LS">Comune di La Spezia</name>
+                </respStmt>
+
+            </titleStmt>
+
+            <editionStmt xml:id="editionStmt1">
+                <!-- COMPILAZIONE -->
+                <edition>Università di Pisa, Informatica Umanistica 
+                    <date>2018</date>
+                </edition>
+
+                <!-- NOME COMPILATORE -->
+                <respStmt>
+                    <resp>Encoding by</resp>
+                    <name ref="#XY1">Tommaso Castagneto</name>
+                </respStmt>
+
+                <!-- REFERENTE SCIENTIFICO sempre Nome Cognome, XY2 è sempre Tommaso Castagneto, XZ1 è chi interviene sulla schedatura già fatta per correzioni e aggiunte-->
+                <respStmt>
+
+                    <resp>Compilatore</resp>
+                    <name ref="#XY2">Tommaso Castagneto</name>
+                    <name ref="#XZ1">Andrea Bussu e Chiara D'Anzi</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Responsabile scientifico</resp>
+                    <name ref="#GP">Giacomo Paolicchi</name>
+                    <name ref="#ES">Enrica Salvatori</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Funzionario responsabile</resp>
+                    <name ref="#ER">E. Ratti</name>
+                </respStmt>
+            </editionStmt>
+
+            <publicationStmt xml:id="publicationStmt1">
+                <publisher>Unipi</publisher>
+                <pubPlace>Pisa</pubPlace>
+                <availability>
+                    <p>Available under licence only</p>
+                </availability>
+                <date when="2020">2020</date>
+                <distributor>LabCD</distributor>
+                <address>
+                    <addrLine>Laboratorio di Cultura Digitale - Università di Pisa</addrLine>
+                    <addrLine>Pisa</addrLine>
+                </address>
+            </publicationStmt>
+            <!-- NOTE NB: mettere qui tutto ciò che non rientra nella codifica -->
+            <notesStmt xml:id="noteStmt1">
+                <note>Sul fronte troviamo "T.Corbella" come firma dell'artista. Sul retro troviamo
+                    la stampa "Proprietà artistica riservata - Uff. Rev. Stampa Milano 11-6-17 N
+                    1139"</note>
+            </notesStmt>
+            <sourceDesc xml:id="sourceDesc1">
+                <bibl>
+                    <!-- TITOLO Quello che si ricava dalla cartolina; Se un documento composto da immagini 
+                        non presenta un titolo o altri elementi considerabili come titolo, si formula un titolo sintetico 
+                        registrandolo entro parentesi quadre [Venere al bagno] ma indicando dentro la codifica come qui sotto esemplificato-->
+                    <title xml:id="title1" type="custom" resp="#ES">Un augurio da Modena</title>
+                    <author>Giovanni</author>
+                    <!-- LUOGO -->
+                    <pubPlace xml:id="pubPlace1">Modena</pubPlace>
+                    <!-- CRONOLOGIA, attenzione si riferisce solo alla data di stampa -->
+                    <date xml:id="date1" when="191797">1917/09/07</date>
+                </bibl>
+                <msDesc>
+                    <!-- COLLOCAZIONE SPECIFICA -->
+                    <msIdentifier>
+                        <country>Italia</country>
+                        <settlement>La Spezia (SP)</settlement>
+                        <!-- COLLOCAZIONE SPECIFICA -->
+                        <repository>Museo Civico Etnografico "Giovanni Podenzana", Sezione dei
+                            cimeli garibaldini e della Prima Guerrra Mondiale</repository>
+                        <!-- CODICE IDENTIFICATIVO -->
+                        <idno>7694_114_001/002</idno>
+                    </msIdentifier>
+                    <!-- Informazioni sul contenuto della cartolina -->
+                    <!-- DESCRIZIONE -->
+                    <msContents>
+                        <summary>Cartolina Artistica</summary>
+                        <textLang>Italiano</textLang>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType>Cartolina</objectType>
+                                    <!-- MATERIALI -->
+                                    <material>Carta</material>
+                                    <!-- DIMENSIONE -->
+                                    <dimensions unit="cm">
+                                        <height>9</height>
+                                        <width>14</width>
+                                    </dimensions>
+                                    <stamp>francobollo - Regno d'Italia</stamp>
+                                </support>
+                                <condition>Buona</condition>
+                            </supportDesc>
+                        </objectDesc>
+                        <additions>Sul fronte troviamo "T.Corbella" come firma dell'artista. Sul
+                            retro troviamo la stampa "Proprietà artistica riservata - Uff. Rev.
+                            Stampa Milano 11-6-17 N 1139"</additions>
+                    </physDesc>
+                </msDesc>
+                <!-- NOMI -->
+                <listPerson>
+                    <person xml:id="GC">
+                        <persName>
+                            <forename>Giovanni</forename>
+                            <surname>Coliola </surname>
+                        </persName>
+                        <sex>M</sex>
+                    </person>
+                    <person xml:id="OT">
+                        <persName>
+                            <forename>Oliva</forename>
+                            <surname>Turtura</surname>
+                        </persName>
+                        <sex>F</sex>
+                        <note/>
+                    </person>
+                </listPerson>
+                <listPlace>
+                    <place xml:id="RV">
+                        <placeName>Ravenna</placeName>
+                        <district type="comune">Ravenna</district>
+                        <district type="provincia">RV</district>
+                        <country key="N">IT</country>
+                    </place>
+                    <place xml:id="MO">
+                        <placeName>Modena</placeName>
+                        <district type="comune">Modena</district>
+                        <district type="provincia">MO</district>
+                        <country key="N">IT</country>
+                    </place>
+                </listPlace>
+                <listOrg>
+                    <org>
+                        <orgName type="N"/>
+                        <desc>Comune di La Spezia</desc>
+                    </org>
+                </listOrg>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#GC">Giovanni</persName>
+                    <placeName ref="#MO">Modena</placeName>
+                    <!-- DATA data di invio da timbro (postage) o da manoscritto (writing) -->
+                    <date type="postage" when="191795">1917/9/7</date>
+                    <date type="writing" when="191774">1917/7/4</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#OT">Oliva Turtura</persName>
+                    <placeName ref="#RV">Ravenna</placeName>
+                </correspAction>
+            </correspDesc>
+
+            <textClass>
+                <keywords>
+                    <!-- soggettario -->
+                    <term>Cartolina </term>
+                    <!-- tipologia -->
+                    <term>Cartolina Artistica </term>
+                    <!-- descrizione -->
+                    <term>Donna (in rosa con fiocco nero) sdraiata sul letto con un cuscino
+                        azzurro</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="it-IT">italiano</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+
+    <!-- DEFINIZIONE -->
+    <!-- Codifica cartolina-->
+    <text type="cartolina" xml:id="cartolina1">
+        <!-- TRASCRIZIONE -->
+        <body>
+            <pb facs="#fronte1" n="1" xml:id="cartolinaf1"/>
+            <div type="fronte">
+                <!-- Descizione fronte immagine -->
+                <figure xml:id="figure1">
+                    <head>
+                        <title xml:id="titolo1">Donna sdraiata</title>
+                    </head>
+                    <figDesc>Donna pensierosa sdraiata su un cuscino, sopra la spalla in risalto vi
+                        è il nome dell'artista (Tito Corbella), inoltre possiamo osservare lo
+                        sguardo vacuo tipico delle persone innamorate. </figDesc>
+                </figure>
+            </div>
+            <pb facs="#retro1" n="2" xml:id="cartolinar1"/>
+            <div type="retro" xml:id="divTxt1">
+                <div xml:id="testo1" type="message" facs="#zone1">
+                    <cb/>
+                    <!-- Intestazione cartolina con luogo e data di stesura -->
+                    <p>
+                        <lb/>
+                        <placeName ref="#MO">Modena</placeName>
+                        <pc pos="$," join="left">,</pc>
+                        <w pos="ADV">lì</w>
+                        <date when="191797">
+                            <num>7</num>
+                            <pc>/</pc>
+                            <num>9</num>
+                            <pc>-</pc>
+                            <choice>
+                                <abbr>17</abbr>
+                                <expan>1917</expan>
+                            </choice>
+                        </date>
+                    </p>
+                    <!-- Corpo della lettera-->
+                    <p xml:id="corpo1">
+                        <lb/>
+                        <phr>
+                            <w pos="ADJ">Mille</w>
+                            <w pos="NOM" lemma="cosa">cose</w>
+                            <w pos="ADJ" lemma="bella">belle</w>
+                        </phr>
+                        <lb/>
+                    </p>
+                    <p>
+                        <persName ref="#GC">
+                            Giovannino
+                        </persName>
+                    </p>
+                    <cb/>
+                </div>
+                <!-- Indirizzo e destinatario della cartolina-->
+                <div xml:id="indDest1" >
+                    <p>
+                        <choice>
+                            <abbr>Gent</abbr>
+                            <expan>
+                                <w>Gent <am>ile</am>
+                                </w>
+                            </expan>
+                        </choice>
+                        <choice>
+                            <abbr>Sig na</abbr>
+                            <expan>
+                                <w> Sig <am>nori</am> na </w>
+                            </expan>
+                        </choice>
+                        <lb/>
+                        <persName ref="#OT">
+                            <forename>Oliva</forename>
+                            <surname>Turtura</surname>
+                        </persName>
+                        <lb/>
+                        <address>
+                            <addrLine><w> Via </w>
+                                <persName>
+                                    <forename>
+                                        Girolamo
+                                    </forename>
+                                    <surname>
+                                        Rossi
+                                    </surname>
+                                </persName>
+                                <num>58</num>
+                            </addrLine>
+                        </address>
+                        <lb/>
+                        <placeName ref="#RV">
+                            Ravenna
+                        </placeName>
+                    </p>
+
+                </div>
+                <div xml:id="timbri1" type="destination" >
+                    <p>
+                        <!-- stamps -->
+                        <stamp type="postmark">
+                            <mentioned>FERROVIA MODENA</mentioned>
+                            <date when="191797">1917/9/7</date>
+                            <time when="2200">22</time>
+                        </stamp>
+                        <stamp type="postage">francobollo da 5 centesimi del Regno d'Italia</stamp>
+                    </p>
+                    <p xml:id="address1">
+                        <address>
+                            <addrLine>Signorina</addrLine>
+                            <addrLine>
+                                <persName ref="#OT">Olivia Turtura </persName>
+                            </addrLine>
+                            <addrLine>Via Girolamo Rossi 58</addrLine>
+                            <addrLine>
+                                <placeName ref="#RV">Ravenna</placeName>
+                            </addrLine>
+                            <addrLine/>
+                        </address>
+                    </p>
+                </div>
+            </div>
+        </body>
+    </text>
+    <!-- Immagini cartolina -->
+    <facsimile xml:id="facsimile1">
+        <surface xml:id="fronte1" start="#cartolinaf1">
+            <!-- Immagine intera fronte -->
+            <graphic url="immagini/7694-114F.jpg"/>
+        </surface>
+        <surface xml:id="retro1" start="#cartolinar1">
+            <!-- Immagine intera retro -->
+            <graphic xml:id="Retro1" url="immagini/7694-114R.jpg" height="380px"/>
+            <!-- Zona interattiva -->
+            <zone ulx="1" uly="40" lrx="270" lry="400" xml:id="zone1"/>
+        </surface>
+    </facsimile>
+</TEI>
